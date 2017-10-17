@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Counter.h"
+
 using namespace std;
 
 int main() {
@@ -13,5 +14,7 @@ int main() {
     ++c3;
     --c3;
     cout<<"C3 count is: "<<c3.getCount()<<endl;
+    CountDn c4(50);
+    cout<<"C4 count is: "<<c4.getCount()<<endl;
     return 0;
 }

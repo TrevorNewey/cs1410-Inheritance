@@ -23,7 +23,12 @@ public:
 
 class CountDn : public Counter{             //derived class
 public:
+    CountDn();
+
+    CountDn(unsigned int count);
+
     Counter operator --();
+
 };
 
 #endif //INHERITANCE_COUNTER_H

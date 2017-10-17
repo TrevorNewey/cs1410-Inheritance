@@ -15,3 +15,9 @@ public:
 private:
 
 protected: Allows derived class to modify "private" members.
+
+
+
+use alt + enter.
+
+use ctrl + q for more documentation.
