@@ -1,0 +1,17 @@
+//Chapter 13 in the book
+
+YOu want a file with your class.... main.cpp will use the class.cpp and the class.h (header) files.
+
+1)Main.cpp has the main() function. IT ISN"T IN any other files.
+    a. #include<headerfile.h>   this is not user defined
+    b. #inclue "class.h" this is a user defined header.
+
+2. Headers should have: Definitions, structs, classes, prototypes etc. But you shouldn't implement it
+3. Implementation is on the .cpp file
+
+
+public:
+
+private:
+
+protected: Allows derived class to modify "private" members.
